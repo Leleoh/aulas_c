@@ -4,7 +4,7 @@
 
 int main(){
     setlocale(LC_ALL,"Portuguese");
-    int num1, num2, soma, vtemp, i, inicio, fim, contadorprimo, primo; //Declaração das variáveis
+    int num1, num2, soma, vtemp, i, inicio, fim, contadorprimo, c, primo; //Declaração das variáveis
     int somaprimos = 0, temprimos = 1; //Declaração das variáveis
     printf("Escolha um número inteiro positivo: "); //Entrada 1
     scanf("%d", &num1);
@@ -33,25 +33,21 @@ int main(){
             primo = 0;
         }
         else{
-            for(contadorprimo = 2; contadorprimo * contadorprimo <= i; contadorprimo++){
-                if (i % contadorprimo == 0){
-                    primo = 0; //
+            for(c = 2; c * c <= i; c++){
+                if (i % c == 0){
+                    primo = 0;
                     break;
-                }
-                
+                }               
             }
         }
         if(primo == 1){
             printf("%d ", i);
             somaprimos += i;
-            temprimos = 1;
+        }
+        else{
+
         }    
     }
-    if (temprimos == 1){
-        printf("\nA soma dos números primos do intervalo é: %d\n", somaprimos);
-    }
-    else{
-        printf("Não foram encontrados números primos nesse intervalo");
-    }
+    printf("A soma de todos os primos é: %d", somaprimos);
     return 0;
 }
