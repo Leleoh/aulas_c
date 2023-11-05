@@ -27,31 +27,31 @@ int main(){
         return 0;
     }
     printf("Números primos entre %d e %d:\n", fim, inicio);
-    for (i = fim; i <= inicio; i++){
+    for (i = fim; i <= inicio; i++){    //Contagem entre o intervalo
         primo = 1;
-        if (i <= 1){
-            primo = 0;
+        if (i <= 1){   
+            primo = 0;  //Caso o número seja menor que 1, não haverá primo
         }
         else{
             for(c = 2; c * c <= i; c++){
                 if (i % c == 0){
-                    primo = 0;
+                    primo = 0;      //Contador
                     break;
                 }
             }
         }
         if(primo == 1){
             printf("%d ", i);
-            somaprimos += i;
+            somaprimos += i;    //Verificação e somatório
             temprimos = 1;      
         }
     }
     if (temprimos){
-        printf("\nA soma de todos os primos é: %d", somaprimos);
+        printf("\nA soma de todos os primos é: %d", somaprimos); //Resultado da soma dos números primos do intervalo
         return 0;
     }
     else{
-        printf("Não foram encontrados números primos nesse intervalo!");
+        printf("Não foram encontrados números primos nesse intervalo!"); //Condição caso não tenham sido encontrados números primos no intervalo
     }
     return 0;
 }
