@@ -3,9 +3,9 @@
 #include <locale.h>
 
 int main(){
-    setlocale(LC_ALL,"Portuguese");
-    int num1, num2, soma, vtemp, i, inicio, fim, contadorprimo, c, primo; //Declaração das variáveis
-    int somaprimos = 0, temprimos = 1; //Declaração das variáveis
+    setlocale(LC_ALL, "Portuguese");
+    int num1, num2, i, inicio, fim, c, primo; //Declaração das variáveis
+    int somaprimos = 0, temprimos = 0; //Declaração das variáveis
     printf("Escolha um número inteiro positivo: "); //Entrada 1
     scanf("%d", &num1);
     printf("Escolha outro número inteiro positivo: "); //Entrada 2
@@ -27,7 +27,7 @@ int main(){
         return 0;
     }
     printf("Números primos entre %d e %d:\n", fim, inicio);
-    for (i = inicio; i <= fim; i++){ 
+    for (i = fim; i <= inicio; i++){
         primo = 1;
         if (i <= 1){
             primo = 0;
@@ -37,17 +37,21 @@ int main(){
                 if (i % c == 0){
                     primo = 0;
                     break;
-                }               
+                }
             }
         }
         if(primo == 1){
             printf("%d ", i);
             somaprimos += i;
+            temprimos = 1;      
         }
-        else{
-
-        }    
     }
-    printf("A soma de todos os primos é: %d", somaprimos);
+    if (temprimos){
+        printf("\nA soma de todos os primos é: %d", somaprimos);
+        return 0;
+    }
+    else{
+        printf("Não foram encontrados números primos nesse intervalo!");
+    }
     return 0;
 }
