@@ -9,6 +9,6 @@ int main(){
     printf("Digite o seu peso em KG: "); //Entrada peso
     scanf("%f", &peso);
     imc = peso / (altura * altura);  //Cálculo IMC
-    printf("O seu IMC é de %.1f KG/m²", imc);  //IMC
+    printf("O seu IMC é de %.1f KG/m²!", imc);  //IMC
     return 0;
 }
