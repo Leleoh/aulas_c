@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <string.h>
+
+#define TAM 30
 
 int main(){
-    char perguntanome[] = "Seu nome e";
-    char nome[] = "Leonel Hernandez";
-    printf("%s %s", perguntanome, nome);
+    char nome[TAM + 1];
+    puts("Digite uma string: ");
+    fgets(nome, TAM + 1, stdin);
+    printf(nome);
+    printf(strlen(nome));
 
-
-    return 0;
 }
