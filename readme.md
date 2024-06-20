@@ -5,3 +5,9 @@ Aqui estarão resolvidos os exercícios propostos durante as aulas e as respecti
 
 ## Estrutura das pastas
 As pastas aqui contidas estarão dividas por semanas, onde cada semana contém outras duas pastas, contendo os exercícios e as práticas.
+
+**Semana 1**
+    -Introdução à programação e comandos básicos em C.
+
+**Semana 2**
+    -Seleções condicionais e operações matemáticas.
