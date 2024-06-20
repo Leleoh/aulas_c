@@ -11,3 +11,7 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
 
 **Semana 2**
   - Seleções condicionais e operações matemáticas.
+
+
+### Observações
+É possível que em vários exercícios ocorram desvios de português, isso acontece apenas por causa de que não foi usado o padrão ABNT, mas nada que prejudique o desenvolvimento.
