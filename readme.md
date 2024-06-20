@@ -14,4 +14,4 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
 
 
 ### Observações
-É possível que em vários exercícios ocorram desvios de português, isso acontece apenas por causa de que não foi usado o padrão ABNT, mas nada que prejudique o desenvolvimento.
+É possível que em agluns exercícios ocorram desvios de português, isso acontece apenas por causa de que não foi usado o padrão ABNT, mas nada que prejudique o desenvolvimento.
