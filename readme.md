@@ -14,4 +14,5 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
 
 
 ### Observações
-É possível que em alguns exercícios ocorram desvios de português, isso acontece apenas por causa de que não foi usado o padrão ABNT, mas nada que prejudique o desenvolvimento.
+-É possível que em alguns exercícios ocorram desvios de português, isso acontece apenas por causa de que não foi usado o padrão ABNT, mas nada que prejudique o desenvolvimento.
+-Os exercícios aqui desenvolvidos foram feitos por minha pessoa, portanto não há garantia de que estejam absolutamente corretos, foi apenas ao resultado no qual cheguei.
