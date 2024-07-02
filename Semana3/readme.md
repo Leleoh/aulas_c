@@ -1,0 +1,1 @@
+A lista dessa semana é igual a da semana dois, uma vez que elas abordam o mesmo assunto.
