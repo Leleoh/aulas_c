@@ -5,7 +5,7 @@
 int main(){
     //Contador para fazer o loop
     for(int i = 0; i <= 10; i++){
-        printf("%d\n", i);      //Saída de 0 a 10
+        printf("%d\n", i);      //Saída de 0 a 10 com o contador
     }
     return 0;
 }
