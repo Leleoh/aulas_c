@@ -9,8 +9,11 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
 **Semana 1**
   - Introdução à programação e comandos básicos em C.
 
-**Semana 2 e 3**
+**Semanas 2 e 3**
   - Seleções condicionais e operações matemáticas.
+
+**Semana 4**
+  - Laços em algoritmos (FOR).
 
 
 ### Observações
