@@ -16,10 +16,10 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
   - Laços em algoritmos (FOR).
 
 **Semana 5**
-  - While/Do While.
+  - Laços em algoritmos While/Do While.
 
 **Semana 6**
-  - Arrays (FOR).
+  - Arrays e Strings.
 
 
 ### Observações
