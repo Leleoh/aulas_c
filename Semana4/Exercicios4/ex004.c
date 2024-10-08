@@ -1,4 +1,4 @@
-/*Faça um programa que lê um valor n e calcula a soma de todos os valores de 0 até n, incluindo n*/
+git/*Faça um programa que lê um valor n e calcula a soma de todos os valores de 0 até n, incluindo n*/
 
 #include <stdio.h>
 
