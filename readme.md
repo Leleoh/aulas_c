@@ -15,6 +15,12 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
 **Semana 4**
   - Laços em algoritmos (FOR).
 
+**Semana 5**
+  - While/Do While.
+
+**Semana 6**
+  - Arrays (FOR).
+
 
 ### Observações
 -É possível que em alguns exercícios ocorram desvios de português, isso acontece apenas por causa de que não foi usado o padrão ABNT, mas nada que prejudique o desenvolvimento.
