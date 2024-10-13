@@ -28,7 +28,7 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
   - Funções.
 
 **Semana 9**
-  -
+  - Ponteiros
 
 **Semana 10**
   -Estruturas e parâmetros
