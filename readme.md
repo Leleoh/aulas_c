@@ -31,7 +31,7 @@ As pastas aqui contidas estarão dividas por semanas, onde cada semana contém o
   - Ponteiros
 
 **Semana 10**
-  -Estruturas e parâmetros
+  - Estruturas e parâmetros
 
 
 ### Observações
